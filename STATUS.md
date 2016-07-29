@@ -1,4 +1,5 @@
 # Status
 
- | Surah | Ayah | Status |
- | 1 | 1 | Begun |
+ | Surah        | Ayah           | Status  | Assignee  |
+ | -------------|:--------------:|:-------:| ---------:|
+ | 1      | 1 | Begin | `Abu Musa`
