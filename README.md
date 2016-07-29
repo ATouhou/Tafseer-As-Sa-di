@@ -24,14 +24,16 @@ Format
 
 While writing tafseer you would also follow guidelines that will make it easy to read. Parsers will be written to follow these guidelines as well.
 
-There are five different types (with their identifier) of text within tafseer
- # General text (`ID: 1`)
- # Text from ayah (e.g, if you are doing tafseer of `42:11`, the text from `42:11`) (`ID: 2`)
- # Text from another ayah (e.g, if the tafseer contains reference of another ayah from Quran) (`ID: 3`)
- # Hadeeth text (`ID: 4`)
- # Special reference (e.g, see http://muflihun.com/1/1?tafid=8166 and you see `اسم`) (`ID: 5`)
- # You can add your own ids (`6`...) if you have valid reason to do that.
- 
+There are following types of text within tafseer:
+
+ - 1. General text
+ - 2. Text from ayah (e.g, if you are doing tafseer of `42:11`, the text from `42:11`)
+ - 3. Text from another ayah (e.g, if the tafseer contains reference of another ayah from Quran)
+ - 4. Hadeeth text
+ - 5. Special reference (e.g, see http://muflihun.com/1/1?tafid=8166 and you see `اسم`)
+
+When writing tafseer, you choose rule by `:RULE_NUMBER{TEXT}`. Except for rule #1 that you do not need to specify.
+
 For example a text
 ```
 This is general text where as :2{text from ayah} is rule 2 and :3{text from another ayah} is rule three and so on.
