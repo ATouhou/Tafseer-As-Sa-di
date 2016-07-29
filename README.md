@@ -38,13 +38,24 @@ There are following types of text within tafseer:
 
 When writing tafseer, you choose rule by `:RULE_NUMBER{TEXT}`. Except for rule #1 that you do not need to specify.
 
+There are some keywords to use instead of common phrases
+
+| Phrase | Keyword |
+| Salalahu alyhi wassalam (or whenever sending blessing on Prophet ﷺ) | :`saw: `|
+| Subhaanahu wa ta'ala (or whenever glorifying Allah (Subhaanahu Wa ta'ala) | `:swt:` |
+| Alyhissalam | `:as:` |
+| Radi Allahu Anhu | `:rahu:` |
+| Radi Allahu Anhaa | `:raha:` |
+| Radi Allahu Anhum | `:rahm:` |
+| Rahimaullah | `:rh:` |
+
 For example a text
 ```
-This is general text where as :2{text from ayah} is rule 2 and :3{text from another ayah} is rule three and so on.
+This is general text where as :2{text from ayah} is rule 2 and :3{text from another ayah} is rule three but this is for Prophet :saw: and so on.
 ```
 Our parsers will then transform this text as
 
-This is general text where as **text from ayah** is rule 2 and __text from another ayah__ is rule three and so on.
+This is general text where as **text from ayah** is rule 2 and __text from another ayah__ is rule three but this is for Prophet (salalahu alayhi wassalam) and so on.
 
 The parsers will be linient and rules will be easily changeable, for example, someone can write parser to show `text from ayah` as blue text. This is why we have made our own rules.
 
