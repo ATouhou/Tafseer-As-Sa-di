@@ -12,3 +12,34 @@ Consequently, for those newly acquainted with Tafsir and those new to Islam, thi
 
 The uniqueness of this Tafsir is in the style the Shaikh used to explain the Ayat in a way that it is similar to everyday writing, without listing the various prophetic sayings or statements of the scholars of Tafsir, which Shaikh Ibn Sa'di used as a basis of his Tafsir.
 
+Files
+-----
+
+We want to support as many platforms as possible so we do not want to make a restriction of certain format (e.g, SQL). We have come to conclusion that we are going to have 1-file rule that means each ayah will be in it's own file. 
+
+File naming will be `<Surah>-<Ayah>.txt`. For example, tafseer of Surah Ash-Shura Ayah 11 will be in file called `42-11.txt` under directory `42`.
+
+Format
+------
+
+While writing tafseer you would also follow guidelines that will make it easy to read. Parsers will be written to follow these guidelines as well.
+
+There are five different types (with their identifier) of text within tafseer
+ # General text (`ID: 1`)
+ # Text from ayah (e.g, if you are doing tafseer of `42:11`, the text from `42:11`) (`ID: 2`)
+ # Text from another ayah (e.g, if the tafseer contains reference of another ayah from Quran) (`ID: 3`)
+ # Hadeeth text (`ID: 4`)
+ # Special reference (e.g, see http://muflihun.com/1/1?tafid=8166 and you see `اسم`) (`ID: 5`)
+ # You can add your own ids (`6`...) if you have valid reason to do that.
+ 
+For example a text
+```
+This is general text where as :2{text from ayah} is rule 2 and :3{text from another ayah} is rule three and so on.
+```
+Our parsers will then transform this text as
+
+This is general text where as **text from ayah** is rule 2 and __text from another ayah__ is rule three and so on.
+
+The parsers will be linient and rules will be easily changeable, for example, someone can write parser to show `text from ayah` as blue text. This is why we have made our own rules.
+
+May Allah make it easy for us to finish this and help our ummah and deen. May Allah accept it from us enter us in to jannat-ul firdous with His Mercy. Aameen
