@@ -44,4 +44,6 @@ This is general text where as **text from ayah** is rule 2 and __text from anoth
 
 The parsers will be linient and rules will be easily changeable, for example, someone can write parser to show `text from ayah` as blue text. This is why we have made our own rules.
 
+---
+
 May Allah make it easy for us to finish this and help our ummah and deen. May Allah accept it from us enter us in to jannat-ul firdous with His Mercy. Aameen
