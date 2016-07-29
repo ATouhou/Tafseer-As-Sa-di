@@ -1,6 +1,10 @@
 Tafseer As-Sa'di (English)
 ==========================
 
+
+                                       ‫بسم الله الرَّحْمَنِ الرَّحِيمِ
+
+
 We are taking an initiative to compile authentic translation of _Taysir al-Karim ar-Rahman fee Tafsir al-Quran_ also known as Tafseer As-Sa'di by Sheikh Abd ar-Rahman ibn Nasir as-Sa'di at-Tamimi (d. 1956)
 
 Introduction to Tafsir As-Sa'di
@@ -30,7 +34,7 @@ There are following types of text within tafseer:
  - 2. Text from ayah (e.g, if you are doing tafseer of `42:11`, the text from `42:11`)
  - 3. Text from another ayah (e.g, if the tafseer contains reference of another ayah from Quran)
  - 4. Hadeeth text
- - 5. Special reference (e.g, see http://muflihun.com/1/1?tafid=8166 and you see `اسم`)
+ - 5. Other texts 
 
 When writing tafseer, you choose rule by `:RULE_NUMBER{TEXT}`. Except for rule #1 that you do not need to specify.
 
