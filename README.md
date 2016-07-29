@@ -41,6 +41,7 @@ When writing tafseer, you choose rule by `:RULE_NUMBER{TEXT}`. Except for rule #
 There are some keywords to use instead of common phrases
 
 | Phrase | Keyword |
+| -------|:-------:|
 | Salalahu alyhi wassalam (or whenever sending blessing on Prophet ﷺ) | :`saw: `|
 | Subhaanahu wa ta'ala (or whenever glorifying Allah (Subhaanahu Wa ta'ala) | `:swt:` |
 | Alyhissalam | `:as:` |
